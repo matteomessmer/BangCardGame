@@ -1,0 +1,15 @@
+.myHand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: burlywood;
+}
+
+.board {
+    background-color: darkkhaki;
+}
+
+.players {
+    display: inline-flex;
+}

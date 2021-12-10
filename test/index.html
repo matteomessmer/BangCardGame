@@ -3,7 +3,7 @@
 <body>
     <div id="root"></div>
     <script>
-        var host = 'ws://localhost:12345/websockets.php';
+        var host = 'ws://oratoriogang.cf/bang/test/websockets.php';
         var socket = new WebSocket(host);
         socket.onmessage = function(e) {
             document.getElementById('root').innerHTML = e.data;
